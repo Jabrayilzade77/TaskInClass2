@@ -1,0 +1,39 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .btn_container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    button{
+        width: 60px;
+        height: 30px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .btn1{
+        background-color: blue;
+        color: white;
+
+    }
+    .btn2{
+        color: white;
+        background-color: red;
+
+    }
+  }
